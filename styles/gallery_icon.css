@@ -1,0 +1,43 @@
+.gallery_icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gallery_items {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.gallery_title {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.gallery_text {
+    font-size: 25px;
+    margin: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.gallery_img {
+    margin: 10px;
+    flex: 15%;
+}
+
+.gallery_img img {
+    max-width: 60%;
+    border-radius: 10px;
+}
+
+.gallery_img img:hover {
+	box-shadow: 2px 2px 5px black;
+	cursor: pointer;
+    transform: scale(1.03);
+}
+
+.gallery_img img:active {
+	opacity: 0.5
+}

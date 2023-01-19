@@ -1,0 +1,41 @@
+html {
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    background-color: #bbbbbb;
+}
+
+ul {
+    z-index: 100;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.title_text {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main_description {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: #333;
+}
