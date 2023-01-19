@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="styles/default.css">
+		<link rel="stylesheet" href="styles/header_tab.css">
+		<link rel="stylesheet" href="styles/return_button.css">
+		<link rel="stylesheet" href="styles/gallery_preview.css">
+		<link rel="stylesheet" href="styles/modal.css">
+		<link rel="stylesheet" href="styles/tooltip.css">
+
+		<link rel="icon" href="icons/FiveOkie_Icon.png">
+
+		<title>
+			Main Gallery
+		</title>
+		
+		<style>
+			.gallery_title {
+				text-decoration: underline;
+				color: black;
+				font-weight: 600;
+			}
+
+			.gallery_title:hover {
+				color: rgb(109, 109, 109);
+			}
+		</style>
+	</head>
+	
+	<body>	
+		<div class="tab">
+            <div class="tab_icon">
+				<a href="index.html">
+					<div class="tooltip">
+						<img src="icons/home_icon.png">
+						<span class="tooltiptext">Home</span>
+					</div>
+				</a>
+            </div>
+            <div class="tab_icon">
+                <a href="main_gallery.html">
+					<div class="tooltip">
+						<img src="icons/gallery_icon.png">
+						<span class="tooltiptext">Main Gallery</span>
+					</div>
+				</a>
+            </div>
+            <div class="tab_icon">
+                <a href="contact.html">
+					<div class="tooltip">
+						<img src="icons/contact_icon.png">
+						<span class="tooltiptext">My Contact</span>
+					</div>
+				</a>
+            </div>
+            <div class="tab_icon">
+                <a href="about_me.html">
+					<div class="tooltip">
+						<img src="icons/about_icon.png">
+						<span class="tooltiptext">My About</span>
+					</div>
+				</a>
+            </div>
+        </div>
+	
+		<div class="title">
+			<p class="title_text">
+				Main Gallery
+			</p>
+		</div>
+
+		<div class="description">
+			<p class="main_description">
+				Central page showing all my favorite auto shots. 
+				Feel free to check each one out, or visit my Instagram to see them all. 
+			</p>
+		</div>	
+
+		<hr style="height:3px; background-color:black">
+		<br>
+		
+		<div class="gallery_preview">
+			<div class="gallery_center">
+				<a href="cali_gallery.html">
+					<div class="gallery_title">
+						My Personal Ride
+					</div>
+				</a>
+				<div class="gallery_image">
+					<img class="gallery_img" src="images/my_mustang/IMG_7312.jpg" alt="Col 1 Img 1">
+					<img class="gallery_img" src="images/my_mustang/IMG_6340.jpg" alt="Col 1 Img 2">
+					<img class="gallery_img" src="images/my_mustang/IMG_7935.png" alt="Col 1 Img 3">
+					<img class="gallery_img" src="images/my_mustang/IMG_6383.jpg" alt="Col 1 Img 4">
+				</div>
+			</div>
+			<br><br>
+			<div class="gallery_center">
+				<a href="modern_cars.html">
+					<div class="gallery_title">
+						Modern Cars
+					</div>
+				</a>
+				<div class="gallery_image">
+					<img class="gallery_img" src="images/modern_cars/IMG_7517.png" alt="Col 2 Img 1">
+					<img class="gallery_img" src="images/modern_cars/IMG_5642.png" alt="Col 2 Img 2">
+					<img class="gallery_img" src="images/modern_cars/IMG_7143.png" alt="Col 2 Img 3">
+					<img class="gallery_img" src="images/modern_cars/IMG_7970.png" alt="Col 2 Img 4">
+				</div>
+			</div>
+			<br><br>
+			<div class="gallery_center">
+				<a href="classic_cars.html">
+					<div class="gallery_title">
+						Classic Cars
+					</div>
+				</a>
+				<div class="gallery_image">
+					<img class="gallery_img" src="images/classic_cars/IMG_1033.png" alt="Col 3 Img 1">
+					<img class="gallery_img" src="images/classic_cars/IMG_1047.png" alt="Col 3 Img 2">
+					<img class="gallery_img" src="images/classic_cars/IMG_8473.png" alt="Col 3 Img 3">
+					<img class="gallery_img" src="images/classic_cars/IMG_7502.png" alt="Col 3 Img 4">
+				</div>
+			</div>
+			<br><br>
+			<div class="gallery_center">
+				<a href="other_cars.html">
+					<div class="gallery_title">
+						Special Cars
+					</div>
+				</a>
+				<div class="gallery_image">
+					<img class="gallery_img" src="images/other_cars/IMG_5714.png" alt="Col 4 Img 1">
+					<img class="gallery_img" src="images/other_cars/IMG_4648.png" alt="Col 4 Img 2">
+					<img class="gallery_img" src="images/other_cars/IMG_6452.png" alt="Col 4 Img 3">
+					<img class="gallery_img" src="images/other_cars/IMG_8459.png" alt="Col 4 Img 4">
+				</div>
+			</div>
+		</div>
+
+		<br>
+
+		<div class="footer">
+			<p>
+				End of Page
+			</p>
+		</div>
+		
+		<div class="top_button">
+			<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		</div>
+		
+		<div class="modal">
+            <span class="close">×</span>
+            <img class="modalImage" id="img01" />
+        </div>
+
+		<script src="scripts/modal.js"></script>
+		<script src="scripts/top_button.js"></script>
+	</body>
+</html>
