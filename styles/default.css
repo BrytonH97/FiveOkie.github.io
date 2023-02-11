@@ -12,9 +12,6 @@ ul {
     z-index: 100;
 }
 
-.active {
-    background-color: #4CAF50;
-}
 
 .title_text {
     font-size: 40px;
