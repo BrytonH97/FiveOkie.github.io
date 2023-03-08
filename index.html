@@ -31,7 +31,7 @@
                 display: table-cell;
                 vertical-align: middle;
                 width: auto;
-                font-size: 4rem;
+                font-size: 7rem;
                 padding: 20px;
                 text-shadow: 2px 2px 5px #646464;
             }
@@ -51,6 +51,18 @@
                 position: fixed;
                 bottom: 20px;
                 right: 20px;
+            }
+            
+            @media (max-width: 750px) {
+                main {
+                    font-size: 4rem;
+                }
+            }
+
+            @media (min-width: 751px) and (max-width: 999px) {
+                main {
+                    font-size: 7rem;
+                }
             }
         </style>
     </head>
