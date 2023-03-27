@@ -9,7 +9,6 @@ main {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	justify-items: center;
-	align-content: space-evenly;
 	align-items: center;
 	gap: 20px;
 }
