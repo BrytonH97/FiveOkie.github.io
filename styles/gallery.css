@@ -3,9 +3,8 @@ main {
 }
 
 #gallery {
-	margin: 20px;
-	padding-left: 100px;
-	padding-right: 100px;
+	padding-left: 40px;
+	padding-right: 40px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	justify-items: center;
