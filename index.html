@@ -9,80 +9,163 @@
         <title>FiveOkie Photography</title>
 
         <style>
-            html, body {
-                height: 100%;
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                font-family: Arial, Helvetica, sans-serif;
-                font-size: 10px;
+			html, body {
+			  height: 100%;
+			  margin: 0;
+			  font-size: 16px;
+			  font-family: "Lato", sans-serif;
+			  font-weight: 400;
+			  line-height: 1.8em;
+			  color: #667;
+			}
+
+			div {
+			  display: block;
+			}
+
+			.panel-img1, .panel-img2, .panel-img3, .panel-img4{
+			  position: relative;
+			  opacity: 0.85;
+			  background-position: center;
+			  background-size: cover;
+			  background-repeat: no-repeat;
+			  background-attachment: fixed;
+			}
+
+			.panel-img1{
+			  background-image: url("images/IMG_9333.jpg");
+			  min-height: 100%;
+			}
+
+			.panel-img2 {
+			  background-image: url("images/IMG_9368.jpg");
+				min-height: 100%;
+			}
+
+			.panel-img3 {
+			  background-image: url("images/IMG_9531.jpg");
+			  min-height: 100%;
+			}
+			
+			.panel-img4 {
+			  background-image: url("images/IMG_9329.jpg");
+			  min-height: 100%;
+			}
+
+			.panel-txt {
+			  position: absolute;
+			  top: 50%;
+			  width: 100%;
+			  text-align: center;
+			  color: #000;
+			  font-size: 27px;
+			  letter-spacing: 8px;
+			  text-transform: uppercase;
+			}
+
+			.border {
+				background-color: #111;
+				color: #fff;
+				padding: 20px;
+			}
+
+			section {
+			  display: block;
+			}
+
+			.section {
+			  text-align: center;
+			  padding: 50px 80px;
+			  background-color: #282e34;
+			  color: #ddd;
+			}
+			
+			.nodecor {
+				text-decoration: none;
+			}
+			
+			.nodecor a {
+				text-decoration: none;
+				color: #ddd;
+			}
+			
+			.nodecor a:hover {
+				color: #667;
+			}
+			
+			#socials img {
+                margin: 20px;
             }
 
-            body {
-                display: table;
-                background-image: url("images/IMG_5752.jpg");
-                background-repeat: no-repeat;
-                background-attachment: fixed;
-                background-size: cover;
+            #socials img:hover {
+                cursor: pointer;
+                transform: scale(105%);
             }
 
-            main {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-                width: auto;
-                font-size: 7rem;
-                padding: 20px;
-                text-shadow: 2px 2px 5px #646464;
+            #socials img:active {
+                transform: scale(90%);
             }
-
-            main a {
-                text-decoration: none;
-            }
-
-            main p {
-                color: white;
-                margin: 40px;
-            }
-
-            footer {
-                margin: 0;
-                width: auto;
-                position: fixed;
-                bottom: 20px;
-                right: 20px;
-            }
-            
-            @media (max-width: 750px) {
-                main {
-                    font-size: 4rem;
-                }
-            }
-
-            @media (min-width: 751px) and (max-width: 999px) {
-                main {
-                    font-size: 7rem;
-                }
-            }
-        </style>
-    </head>
-    <body>
-        <main>
-            <a href="portfolio.html">
-                <p>PORTFOLIO</p>
-            </a>
-            <a href="about.html">
-                <p>ABOUT</p>
-            </a>
-            <a href="contact.html">
-                <p>CONTACT</p>
-            </a>
-        </main>
-
-        <footer>
-            <a href="index.html">
-                <img src="icons\FiveOkie_Logo.png" alt="fiveokie-logo" height="100px" width="100px">
-            </a>
-        </footer>
-    </body>
+		</style>
+	</head>
+		
+	<body>
+	  <div class="panel-img1">
+		<div class="panel-txt">
+		  <span class="border">FiveOkie Photography</span>
+		</div>
+	  </div>
+	  
+	  <section class="section">
+		<h2>Auto Photographer</h2>
+	  
+		<p>
+		  Classic, Muscle, Import, Custom - All cars are gorgeous, at the right angle
+		</p>
+	  </section>
+	  
+	  <div class="panel-img2">
+		<div class="panel-txt">
+		  <span class="border">Capturing Beauty</span>
+		</div>
+	  </div>
+	  
+	  <section class="section">
+		<h2>If I could tell a story in words, I wouldn't need to lug a camera.</h2>
+	  
+		<p>
+		  -Lewis Hine
+		</p>
+	  </section>
+	  
+	  <div class="panel-img3">
+		<div class="panel-txt">
+		  <span class="border">Telling Stories</span>
+		</div>
+	  </div>
+	  
+	  <section class="section">
+		<h2>Contact & Socials</h2>
+	  
+		<p class="nodecor">
+		  Email - <a href="mailto:fiveokie@gmail.com">fiveokie@gmail.com
+		</p>
+		<div id="socials">
+			<a class="nodecor" href="https://www.instagram.com/fiveokie/" target="_blank">
+				<img src="icons/instagram_icon.png" alt="instagram-icon" height="50px" width="50px">
+			</a>
+			<a class="nodecor" href="https://www.tiktok.com/@fiveokie" target="_blank">
+				<img src="icons/tiktok_icon.png" alt="tiktok-icon" height="50px" width="50px">
+			</a>
+			<a class="nodecor" href="https://www.youtube.com/@fiveokie" target="_blank">
+				<img src="icons/youtube_icon.png" alt="youtube-icon" height="50px" width="50px">
+			</a>
+		</div>
+	  </section>
+	  
+	  <div class="panel-img4">
+		<div class="panel-txt">
+		  <span class="border">FiveOkie Photography</span>
+		</div>
+	  </div>
+	</body>
 </html>
